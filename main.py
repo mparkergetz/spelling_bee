@@ -97,9 +97,9 @@ while True:
         word_list_today.remove(my_input)
         words_guessed_list.append(my_input)
         if my_input in alt_pangrams:
-            print('!!!!PANGRAM!!!!')
+            print('/n/n/n!!!!PANGRAM!!!!')
         else:
-            print(np.random.choice(congrats))
+            print(np.random.choice('/n/n/n/',congrats))
     else:
         print('Not in word list')
     print(('X'*words_guessed),('.'*total_count))
